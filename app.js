@@ -24,7 +24,7 @@ const automaticUpgrades = {
   }
 };
 
-let slime = 0
+let slime = 50000
 let clickCount = 1
 let autoCount = 0
 let totalClickUpgrades = 0
@@ -35,7 +35,6 @@ let autoCompounded = 0
 function mine() {
   slime++
   clickUpgrade()
-  runAuto()
   update()
 }
 
