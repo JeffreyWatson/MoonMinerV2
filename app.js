@@ -24,7 +24,7 @@ const automaticUpgrades = {
   }
 };
 
-let slime = 50000
+let slime = 0
 let clickCount = 1
 let autoCount = 0
 let totalClickUpgrades = 0
@@ -145,7 +145,6 @@ function runAuto() {
 }
 
 let autoInterval = setInterval(runAuto, 3000)
-update()
 drawClicks()
 drawClickStats()
 drawAuto()
