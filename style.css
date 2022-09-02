@@ -46,20 +46,12 @@ body {
   transform: translateY(-10px);
 }
 
-.move-1 {
-  transform: translateX(-10px);
-}
-
-.move-2 {
-  transform: translateX(+5px);
-}
-
 .move-3 {
-  transform: translateX(-7px);
+  transform: translateX(10px);
 }
 
 .move-4 {
-  transform: translateX(+12px);
+  transform: translateX(25px);
 }
 
 .move-alien {
@@ -83,8 +75,8 @@ body {
   font-size: 16px;
 }
 
-.arrows {
-  margin-left: 75px;
+.tl {
+  transform: translateX(+40px);
 }
 
 .corners {
@@ -114,10 +106,10 @@ body {
   color: rgb(95, 238, 0);
 }
 
-img:hover {
-  background: rgba(14, 47, 9, 0.73);
-  padding: 20px;
-  color: rgb(255, 255, 255);
-  opacity: 0.9;
-  cursor: pointer;
+.statsMove {
+  transform: translateY(-9px);
+}
+
+.border {
+  border: 1px solid black;
 }
